@@ -3,7 +3,7 @@ package commants;
 import org.telegram.telegrambots.api.methods.send.SendMessage;
 import org.telegram.telegrambots.api.objects.Update;
 
-public class StartCommant{
+public class SharonBotCommants {
 
     public static SendMessage welcomeMessege(Update update) {
         //Send Messege

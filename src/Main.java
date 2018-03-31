@@ -1,3 +1,4 @@
+import bots.botsConfiguration.ShakedBotConfig;
 import bots.botsConfiguration.SharonBotConfig;
 import org.telegram.telegrambots.ApiContextInitializer;
 import org.telegram.telegrambots.TelegramBotsApi;
@@ -8,14 +9,15 @@ public class Main {
     public static void main(String args[]){
         ApiContextInitializer.init();
         TelegramBotsApi telegramBotsApi = new TelegramBotsApi();
-        SharonBotConfig bot = new SharonBotConfig();
+        SharonBotConfig botSharon = new SharonBotConfig();
+        ShakedBotConfig botShaked = new ShakedBotConfig();
 
         try
         {
-            telegramBotsApi.registerBot(bot);
+            telegramBotsApi.registerBot(botSharon);
+            telegramBotsApi.registerBot(botShaked);
         }catch (TelegramApiRequestException e){
             e.printStackTrace();
         }
-
     }
 }

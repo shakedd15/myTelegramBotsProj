@@ -1,7 +1,6 @@
 package bots.botsMessageHandler;
 
-import bots.botsMessageHandler.BotAPI;
-import commants.StartCommant;
+import commants.SharonBotCommants;
 import org.telegram.telegrambots.api.methods.send.SendMessage;
 import org.telegram.telegrambots.api.objects.Update;
 
@@ -13,19 +12,19 @@ public class SharonBot implements BotAPI {
 
         switch (messageContant){
             case "/start":{
-                sendMessage = StartCommant.welcomeMessege(update);
+                sendMessage = SharonBotCommants.welcomeMessege(update);
                 break;
             }
             case "מי בנה את הבוט הזה?":{
-                sendMessage = StartCommant.shakedWroteThis(update);
+                sendMessage = SharonBotCommants.shakedWroteThis(update);
                 break;
             }
             case "מי אתה?":{
-                sendMessage = StartCommant.howAmI(update);
+                sendMessage = SharonBotCommants.howAmI(update);
                 break;
             }
             case "/shafan":{
-                sendMessage = StartCommant.shafan(update);
+                sendMessage = SharonBotCommants.shafan(update);
                 break;
             }
             default: {
