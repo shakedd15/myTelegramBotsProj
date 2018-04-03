@@ -21,6 +21,10 @@ public class ShakedMessageBot implements BotAPI {
                 sendMessage = ShakedMessageCommants.shakedWroteThis(update);
                 break;
             }
+            case "אילן":{
+                sendMessage = ShakedMessageCommants.illan(update);
+                break;
+            }
             default: {
                 sendMessage = null;
                 break;

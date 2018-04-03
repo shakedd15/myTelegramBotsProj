@@ -15,10 +15,6 @@ public class SharonBot implements BotAPI {
                 sendMessage = SharonBotCommants.welcomeMessege(update);
                 break;
             }
-            case "מי בנה את הבוט הזה?":{
-                sendMessage = SharonBotCommants.shakedWroteThis(update);
-                break;
-            }
             case "מי אתה?":{
                 sendMessage = SharonBotCommants.howAmI(update);
                 break;
@@ -28,10 +24,39 @@ public class SharonBot implements BotAPI {
                 break;
             }
             default: {
-                sendMessage = null;
+                sendMessage = this.ifStatments(messageContant, update);
                 break;
             }
         }
+
+        return sendMessage;
+    }
+
+    private SendMessage ifStatments (String messageContant, Update update){
+        SendMessage sendMessage = null;
+        if(messageContant.contains("ארנבים")){
+            sendMessage = SharonBotCommants.AlotOfshafan(update);
+        } else if(messageContant.contains("ארנב")){
+            sendMessage = SharonBotCommants.shafan(update);
+        }else if(messageContant.contains("טיפש") || messageContant.contains("אוטיסט") || messageContant.contains("מפגר")
+                || messageContant.contains("דביל") || messageContant.contains("זונה") || messageContant.contains("חרא")
+                || messageContant.contains("אידיוט")){
+            sendMessage = SharonBotCommants.getCurse(update);
+        }  else if(messageContant.contains("היי") || messageContant.contains("שלום") || messageContant.contains("hey")){
+            sendMessage = SharonBotCommants.getHey(update);
+        }  else if(messageContant.contains("מי בנה אותך") || messageContant.contains("מי כתב אותך")
+                || messageContant.contains("מי יצר אותך") || messageContant.contains("מי בנה את הבוט")
+                || messageContant.contains("מי יצר את הבוט") || messageContant.contains("מי בנתה אותך")
+                || messageContant.contains("מי יצרה אותך") || messageContant.contains("מי כתבה אותך")){
+            sendMessage = SharonBotCommants.shakedWroteThis(update);
+        }  else if(messageContant.contains("שקד")){
+            sendMessage = SharonBotCommants.shakedNameHandler(update);
+        } else {
+            sendMessage = SharonBotCommants.defaultM(update);
+        }
+
+        System.out.println("bot: " + sendMessage.getText());
+
         return sendMessage;
     }
 }
