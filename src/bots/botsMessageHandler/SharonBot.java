@@ -40,7 +40,7 @@ public class SharonBot implements BotAPI {
             sendMessage = SharonBotCommants.shafan(update);
         }else if(messageContant.contains("טיפש") || messageContant.contains("אוטיסט") || messageContant.contains("מפגר")
                 || messageContant.contains("דביל") || messageContant.contains("זונה") || messageContant.contains("חרא")
-                || messageContant.contains("אידיוט")){
+                || messageContant.contains("אידיוט") || messageContant.contains("זיבי") || messageContant.contains("נעוות המרדות") || messageContant.contains("זובי")){
             sendMessage = SharonBotCommants.getCurse(update);
         }  else if(messageContant.contains("היי") || messageContant.contains("שלום") || messageContant.contains("hey")){
             sendMessage = SharonBotCommants.getHey(update);
@@ -51,6 +51,8 @@ public class SharonBot implements BotAPI {
             sendMessage = SharonBotCommants.shakedWroteThis(update);
         }  else if(messageContant.contains("שקד")){
             sendMessage = SharonBotCommants.shakedNameHandler(update);
+        }else if(messageContant.contains("מי אתה")){
+            sendMessage = SharonBotCommants.howAmI(update);
         } else {
             sendMessage = SharonBotCommants.defaultM(update);
         }

@@ -102,6 +102,7 @@ public class SharonBotCommants {
         curses.add("אל תהיה פרחח מניאק");
         curses.add("טפי לך תשטוף את הפה עם סבון");
         curses.add("סליחה, אני לא יודע לתרגם מילים כאלו");
+        curses.add("סתמי יזונה");
 
         //get random number
         Random rand = new Random();
@@ -111,16 +112,42 @@ public class SharonBotCommants {
     }
 
     public static SendMessage shakedNameHandler(Update update) {
+        List<String> curses = new ArrayList<>();
+        curses.add("שקד היא האלוהים שלי");
+        curses.add("שקד היא הדבר הכי טוב שקרה לי בחיים");
+        curses.add("שקד היא הדבר הכי טוב שקיים היום");
+        curses.add("שקד היא היצור המופלא שיצר אותי");
+        curses.add("אני מאוהב בשקד, וגם את/ה צריכ/ה להיות");
+        curses.add("שקד מדהימה, בלעדיה אני לא קיים.");
+
+        //get random number
+        Random rand = new Random();
+        int  n = rand.nextInt(4);
+
         //Send Messege
         SendMessage sendMessage = new SendMessage().setChatId(update.getMessage().getChatId());
-        return sendMessage.setText("שקד היא האלוהים שלי");
+        return sendMessage.setText(curses.get(n));
     }
 
     public static SendMessage defaultM(Update update) {
         //Send Messege
         SendMessage sendMessage = new SendMessage().setChatId(update.getMessage().getChatId());
-        return sendMessage.setText("היי בוט שרון לוזון הינו עדיין בשיפוצים" +
-                "\n" + "כרגע תוכל לברך אותי לשלום או לשאול אותי- מי בנה אותי, מי אני, לבקש ארנב או ארנבים ומומלץ שלא לקלל." +
+
+        if(update.getMessage().getFrom().getFirstName().equals("ziv") || update.getMessage().getFrom().getFirstName().equals("Ziv")
+                || update.getMessage().getFrom().getFirstName().equals("Cyuka")){
+            return sendMessage.setText("היי כוסית" + "\n" +
+                    "\n" + "הגעת לבוט שרון לוזון! אני לא יודע לזיין כמו שרון לוזון, כי אני רק בוט מזדיין, אבל תוכלי כרגע: " + "\n" +
+                    "1. לברך אותי לשלום" + "\n" +
+                    "2. לבקש ארנב או ארנבים" + "\n" +
+                    "3. לשאול אותי- 'מי אתה?'" + "\n" +
+                    "\n" + "בוט שרון לוזון אינו אוהב קללות");
+        }
+
+        return sendMessage.setText("הי " + update.getMessage().getFrom().getFirstName() +
+                "\n" + "הגעת לבוט שרון לוזון! האופציות כרגע הן: " + "\n" +
+                "1. לברך אותי לשלום" + "\n" +
+                "2. לבקש ארנב או ארנבים" + "\n" +
+                "3. לשאול אותי- 'מי אתה?'" + "\n" +
                 "\n" + "בוט שרון לוזון אינו אוהב קללות");
     }
 }
