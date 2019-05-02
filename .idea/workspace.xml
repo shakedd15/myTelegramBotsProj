@@ -1,0 +1,1045 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a940267d-d68d-4d67-a4aa-e6eaa777b23f" name="Default" comment="adding some truth or dare bot&#10;change some words in sharonluzon bot">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/telegrambots_2_4_4_5_jar_with_dependencies__3_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shakedBotYOLO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shakedBotYOLO.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Emojis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bots/botsConfiguration/BotFather.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bots/botsConfiguration/LSDBotConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bots/botsConfiguration/SharonBotConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bots/botsConfiguration/ZivBotConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bots/botsMessageHandler/LSDMessageBot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bots/botsMessageHandler/SharonBot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bots/botsMessageHandler/ZivMessageBot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bots/botsMessageHandler/utils/BotAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commants/SharonBotCommants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commants/ZivMessageCommants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commants/lsdBot/LSDBotResponsed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commants/lsdBot/LSDUser.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="shakedBotYOLO" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bots/botsConfiguration/botFatherSataters/BotFatherSharonLuzon.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="58" column="27" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/telegram/telegrambots/4.2/telegrambots-4.2.jar!/org/telegram/telegrambots/bots/TelegramLongPollingBot.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/telegram/telegrambots/4.2/telegrambots-4.2.jar!/org/telegram/telegrambots/bots/DefaultAbsSender.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1252">
+              <caret line="199" column="18" selection-start-line="199" selection-start-column="18" selection-end-line="199" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/telegram/telegrambots-meta/4.2/telegrambots-meta-4.2.jar!/org/telegram/telegrambots/meta/api/methods/send/SendMessage.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bots/botsConfiguration/SharonBotConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bots/botsMessageHandler/ZivMessageBot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bots/botsConfiguration/botFatherSataters/BotFatherZivBerkoich.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="10" column="75" lean-forward="true" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bots/botsMessageHandler/LSDMessageBot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getBotUsername</find>
+      <find>sends</find>
+      <find>sendstic</find>
+      <find>bot</find>
+      <find>getfir</find>
+      <find>BotFatherSharonLuzon</find>
+      <find>update.getMessage().getFrom().getFirstName()</find>
+      <find>update.message().from().firstName()</find>
+      <find>send</find>
+      <find>message</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>update.message().from().firstName()</replace>
+      <replace>update.getMessage().getFrom().getFirstName()</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/bots/botAPI.java" />
+        <option value="$PROJECT_DIR$/src/bots/SharonBot.java" />
+        <option value="$PROJECT_DIR$/src/bots/ShakedMessageBot.java" />
+        <option value="$PROJECT_DIR$/src/BotsInfoEnum.java" />
+        <option value="$PROJECT_DIR$/src/GlobalEnum/BotsInfoEnum.java" />
+        <option value="$PROJECT_DIR$/src/GlobalEnums/BotsInfoEnum.java" />
+        <option value="$PROJECT_DIR$/src/Bot.java" />
+        <option value="$PROJECT_DIR$/src/bots/botsConfiguration/SharonBotConfig.java" />
+        <option value="$PROJECT_DIR$/src/commants/StartCommant.java" />
+        <option value="$PROJECT_DIR$/src/BotsMessageHandler/ShakedMessageBot.java" />
+        <option value="$PROJECT_DIR$/src/botsMessageHandler/ShakedMessageBot.java" />
+        <option value="$PROJECT_DIR$/src/bots/botsMessageHandler/ShakedMessageBot.java" />
+        <option value="$PROJECT_DIR$/src/commants/ShakedMessageCommants.java" />
+        <option value="$PROJECT_DIR$/src/commants/lsdBot/user.java" />
+        <option value="$PROJECT_DIR$/src/commants/lsdBot/lsdUsers.fxml" />
+        <option value="$PROJECT_DIR$/src/bots/botsConfiguration/LSDBotConfig.java" />
+        <option value="$PROJECT_DIR$/src/commants/lsdBot/LSDUser.java" />
+        <option value="$PROJECT_DIR$/lsdUsers.json" />
+        <option value="$PROJECT_DIR$/src/commants/SharonBotCommants.java" />
+        <option value="$PROJECT_DIR$/src/bots/botsConfiguration/ShakedBotConfig.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/bots/botsConfiguration/BotFather.java" />
+        <option value="$PROJECT_DIR$/src/bots/botsConfiguration/BotFatherSharonLuzon.java" />
+        <option value="$PROJECT_DIR$/src/bots/botsConfiguration/ZivBotConfig.java" />
+        <option value="$PROJECT_DIR$/src/bots/botsMessageHandler/BotAPI.java" />
+        <option value="$PROJECT_DIR$/src/bots/botsMessageHandler/messegeTypeUtils.java" />
+        <option value="$PROJECT_DIR$/src/bots/botsMessageHandler/utils/BotAPI.java" />
+        <option value="$PROJECT_DIR$/src/bots/botsMessageHandler/SharonBot.java" />
+        <option value="$PROJECT_DIR$/src/bots/botsMessageHandler/LSDMessageBot.java" />
+        <option value="$PROJECT_DIR$/src/bots/botsMessageHandler/utils/MessegeTypeUtils.java" />
+        <option value="$PROJECT_DIR$/src/bots/botsMessageHandler/ZivMessageBot.java" />
+        <option value="$PROJECT_DIR$/src/commants/ZivMessageCommants.java" />
+        <option value="$PROJECT_DIR$/src/bots/botsConfiguration/botFatherSataters/BotFatherZivBerkoich.java" />
+        <option value="$PROJECT_DIR$/src/bots/botsMessageHandler/utils/readAndWriteToFile.java" />
+        <option value="$PROJECT_DIR$/src/commants/lsdBot/LSDBotResponsed.java" />
+        <option value="$PROJECT_DIR$/src/bots/botsConfiguration/botFatherSataters/BotFatherSharonLuzon.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bots/botsMessageHandler/utils/BotAPI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bots/botsConfiguration/SharonBotConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bots/botsConfiguration/LSDBotConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bots/botsConfiguration/ZivBotConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bots/botsMessageHandler/SharonBot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/commants/ZivMessageCommants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bots/botsMessageHandler/utils/MessegeTypeUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bots/botsMessageHandler/LSDMessageBot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/commants/lsdBot/LSDBotResponsed.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bots/botsMessageHandler/ZivMessageBot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/commants/SharonBotCommants.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/bots/botsConfiguration/botFatherSataters/BotFatherSharonLuzon.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bots/botsConfiguration/botFatherSataters/BotFatherZivBerkoich.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="shakedBotYOLO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shakedBotYOLO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shakedBotYOLO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shakedBotYOLO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shakedBotYOLO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shakedBotYOLO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shakedBotYOLO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shakedBotYOLO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shakedBotYOLO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shakedBotYOLO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bots" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shakedBotYOLO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shakedBotYOLO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bots" type="462c0819:PsiDirectoryNode" />
+              <item name="botsConfiguration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shakedBotYOLO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shakedBotYOLO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bots" type="462c0819:PsiDirectoryNode" />
+              <item name="botsConfiguration" type="462c0819:PsiDirectoryNode" />
+              <item name="botFatherSataters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shakedBotYOLO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shakedBotYOLO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bots" type="462c0819:PsiDirectoryNode" />
+              <item name="botsMessageHandler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shakedBotYOLO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shakedBotYOLO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bots" type="462c0819:PsiDirectoryNode" />
+              <item name="botsMessageHandler" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shakedBotYOLO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shakedBotYOLO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="commants" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556824260663" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TelegramBots/telegrambots-meta" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.36091954" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="shakedBotYOLO" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a940267d-d68d-4d67-a4aa-e6eaa777b23f" name="Default" comment="" />
+      <created>1522504046633</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1522504046633</updated>
+      <workItem from="1522504050967" duration="19274000" />
+      <workItem from="1522642412099" duration="10471000" />
+      <workItem from="1524837233155" duration="2524000" />
+      <workItem from="1527709537151" duration="3046000" />
+      <workItem from="1533323754931" duration="2247000" />
+      <workItem from="1533364042772" duration="6686000" />
+      <workItem from="1533492213992" duration="2390000" />
+      <workItem from="1534703374084" duration="658000" />
+    </task>
+    <task id="LOCAL-00001" summary="add all project to github">
+      <created>1522526768294</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1522526768294</updated>
+    </task>
+    <task id="LOCAL-00002" summary="shron bot is working">
+      <created>1522527940866</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1522527940866</updated>
+    </task>
+    <task id="LOCAL-00003" summary="TWO BOTS ARE WORKING AT THE SAME TIME">
+      <created>1522531390683</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1522531390683</updated>
+    </task>
+    <task id="LOCAL-00004" summary="all works">
+      <created>1522751575819</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1522751575820</updated>
+    </task>
+    <task id="LOCAL-00005" summary="adding some truth or dare bot&#10;change some words in sharonluzon bot">
+      <created>1552054363807</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1552054363807</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="47296000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Favorites" order="2" sideWeight="0.2962298" side_tool="true" weight="0.19864048" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.70483005" visible="true" weight="0.23338369" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.299187" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5007553" side_tool="true" visible="true" weight="0.2406504" />
+      <window_info anchor="bottom" id="Java Enterprise" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.3284553" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" sideWeight="0.49924472" visible="true" weight="0.2406504" />
+      <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.49926794" weight="0.91382116" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Maven" order="0" weight="0.22960725" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Maven Projects" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Bean Validation" order="6" />
+      <window_info anchor="right" id="Palette" order="7" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add all project to github" />
+    <MESSAGE value="shron bot is working" />
+    <MESSAGE value="TWO BOTS ARE WORKING AT THE SAME TIME" />
+    <MESSAGE value="all works" />
+    <MESSAGE value="adding some truth or dare bot&#10;change some words in sharonluzon bot" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding some truth or dare bot&#10;change some words in sharonluzon bot" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/commants/SharonBotCommants.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/botsMessageHandler/SharonBot.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>83</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/commants/SharonBotCommants.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/commants/SharonBotCommants.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/commants/lsdBot/LSDBotResponsed.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/commants/lsdBot/LSDBotResponsed.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bots/botsMessageHandler/LSDMessageBot.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/commants/lsdBot/LSDBotResponsed.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/commants/lsdBot/LSDBotResponsed.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bots/botsMessageHandler/ZivMessageBot.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bots/botsConfiguration/botFatherSataters/BotFatherSharonLuzon.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bots/botsConfiguration/botFatherSataters/BotFatherSharonLuzon.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bots/botsConfiguration/botFatherSataters/BotFatherZivBerkoich.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bots/botsConfiguration/botFatherSataters/BotFatherZivBerkoich.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bots/botsConfiguration/botFatherSataters/BotFatherZivBerkoich.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bots/botsConfiguration/ZivBotConfig.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bots/botsMessageHandler/utils/readAndWriteToFile.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="s" />
+        <watch expression="s.contains(&quot;536854945&quot;)" />
+        <watch expression="messageContant" />
+        <watch expression="update.getMessage().getText()" />
+        <watch expression="e" />
+        <watch expression="update.getMessage().audio.fileId" language="JAVA" />
+        <watch expression="update.getMessage()" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>update.getMessage().audio.fileId</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>update.getMessage().getText()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>arr.</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>arr.getJSONArray(1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>arr.getJSONArray()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>arr</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>update.getMessage().getSticker()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>sendSticker</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$PROJECT_DIR$/../telegrambots-2.4.4.5-jar-with-dependencies (3).jar!/org/telegram/telegrambots/bots/commands/ICommandRegistry.class" />
+    <entry file="jar://$PROJECT_DIR$/../telegrambots-2.4.4.5-jar-with-dependencies (3).jar!/org/telegram/telegrambots/bots/TelegramLongPollingCommandBot.class" />
+    <entry file="file://$PROJECT_DIR$/src/bots/BotsConfiguration.java" />
+    <entry file="file://$PROJECT_DIR$/src/GlobalEnums/BotsInfoEnum.java" />
+    <entry file="file://$PROJECT_DIR$/src/Bot.java" />
+    <entry file="file://$PROJECT_DIR$/src/botsMessageHandler/SharonBot.java" />
+    <entry file="file://$PROJECT_DIR$/src/botsConfiguration/BotFather.java" />
+    <entry file="file://$PROJECT_DIR$/src/botsMessageHandler/BotAPI.java" />
+    <entry file="file://$PROJECT_DIR$/src/botsConfiguration/SharonBotConfig.java" />
+    <entry file="file://$PROJECT_DIR$/src/botsMessageHandler/ShakedMessageBot.java" />
+    <entry file="file://$PROJECT_DIR$/src/botsConfiguration/ShakedBotConfig.java" />
+    <entry file="jar://$PROJECT_DIR$/../telegrambots-2.4.4.5-jar-with-dependencies (3).jar!/org/telegram/telegrambots/api/methods/send/SendSticker.class" />
+    <entry file="jar://$PROJECT_DIR$/../telegrambots-2.4.4.5-jar-with-dependencies (3).jar!/org/telegram/telegrambots/api/methods/updates/GetUpdates.class" />
+    <entry file="jar://$PROJECT_DIR$/../telegrambots-2.4.4.5-jar-with-dependencies (3).jar!/org/json/JSONObject.class" />
+    <entry file="jar://$PROJECT_DIR$/../telegrambots-2.4.4.5-jar-with-dependencies (3).jar!/org/telegram/telegrambots/updatesreceivers/DefaultBotSession.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/commants/lsdBot/LSDUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../telegrambots-2.4.4.5-jar-with-dependencies (3).jar!/org/telegram/telegrambots/TelegramBotsApi.class" />
+    <entry file="jar://$PROJECT_DIR$/../telegrambots-2.4.4.5-jar-with-dependencies (3).jar!/org/telegram/telegrambots/api/methods/PartialBotApiMethod.class" />
+    <entry file="jar://$PROJECT_DIR$/../telegrambots-2.4.4.5-jar-with-dependencies (3).jar!/org/telegram/telegrambots/api/methods/send/SendAudio.class" />
+    <entry file="jar://$PROJECT_DIR$/../telegrambots-2.4.4.5-jar-with-dependencies (3).jar!/org/telegram/telegrambots/api/methods/BotApiMethod.class" />
+    <entry file="jar://$PROJECT_DIR$/../telegrambots-2.4.4.5-jar-with-dependencies (3).jar!/org/telegram/telegrambots/api/methods/send/SendMessage.class" />
+    <entry file="jar://$PROJECT_DIR$/../telegrambots-2.4.4.5-jar-with-dependencies (3).jar!/org/telegram/telegrambots/bots/TelegramLongPollingBot.class" />
+    <entry file="jar://$PROJECT_DIR$/../telegrambots-2.4.4.5-jar-with-dependencies (3).jar!/org/telegram/telegrambots/bots/AbsSender.class" />
+    <entry file="file://$PROJECT_DIR$/shakedBotYOLO.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../telegrambots-2.4.4.5-jar-with-dependencies (3).jar!/org/telegram/telegrambots/api/objects/replykeyboard/ReplyKeyboard.class" />
+    <entry file="file://$PROJECT_DIR$/lsdUsers.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pengrad/java-telegram-bot-api/4.2.0/java-telegram-bot-api-4.2.0.jar!/com/pengrad/telegrambot/model/Update.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+          <folding>
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pengrad/java-telegram-bot-api/4.2.0/java-telegram-bot-api-4.2.0.jar!/com/pengrad/telegrambot/model/User.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pengrad/java-telegram-bot-api/4.2.0/java-telegram-bot-api-4.2.0.jar!/com/pengrad/telegrambot/model/Message.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bots/botsConfiguration/ZivBotConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bots/botsMessageHandler/utils/MessegeTypeUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-163">
+          <caret line="3" column="57" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
+          <folding>
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#819#820#0" expanded="true" />
+            <element signature="e#1667#1668#0" expanded="true" />
+            <element signature="e#1701#1702#0" expanded="true" />
+            <element signature="e#1831#1832#0" expanded="true" />
+            <element signature="e#1873#1874#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bots/botsMessageHandler/utils/BotAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bots/botsMessageHandler/utils/readAndWriteToFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/commants/lsdBot/LSDBotResponsed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="996">
+          <caret line="75" column="20" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bots/botsConfiguration/LSDBotConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Emojis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/commants/ZivMessageCommants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/telegram/telegrambots-meta/4.2/telegrambots-meta-4.2.jar!/org/telegram/telegrambots/meta/generics/LongPollingBot.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/commants/SharonBotCommants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="84" column="38" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bots/botsMessageHandler/SharonBot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bots/botsMessageHandler/ZivMessageBot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bots/botsMessageHandler/LSDMessageBot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bots/botsConfiguration/SharonBotConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/telegram/telegrambots-meta/4.2/telegrambots-meta-4.2.jar!/org/telegram/telegrambots/meta/api/methods/send/SendMessage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/telegram/telegrambots/4.2/telegrambots-4.2.jar!/org/telegram/telegrambots/bots/TelegramLongPollingBot.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/telegram/telegrambots/4.2/telegrambots-4.2.jar!/org/telegram/telegrambots/bots/DefaultAbsSender.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1252">
+          <caret line="199" column="18" selection-start-line="199" selection-start-column="18" selection-end-line="199" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bots/botsConfiguration/botFatherSataters/BotFatherSharonLuzon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="58" column="27" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bots/botsConfiguration/botFatherSataters/BotFatherZivBerkoich.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="10" column="75" lean-forward="true" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36091954" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36091954" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36091954" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36091954" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>shakedBotYOLO</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36091954" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36091954" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
+  </component>
+</project>
