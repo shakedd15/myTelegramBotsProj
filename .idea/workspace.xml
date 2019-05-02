@@ -1,25 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a940267d-d68d-4d67-a4aa-e6eaa777b23f" name="Default" comment="adding some truth or dare bot&#10;change some words in sharonluzon bot">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/telegrambots_2_4_4_5_jar_with_dependencies__3_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shakedBotYOLO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shakedBotYOLO.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Emojis.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bots/botsConfiguration/BotFather.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bots/botsConfiguration/LSDBotConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bots/botsConfiguration/SharonBotConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bots/botsConfiguration/ZivBotConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bots/botsMessageHandler/LSDMessageBot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bots/botsMessageHandler/SharonBot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bots/botsMessageHandler/ZivMessageBot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bots/botsMessageHandler/utils/BotAPI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commants/SharonBotCommants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commants/ZivMessageCommants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commants/lsdBot/LSDBotResponsed.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commants/lsdBot/LSDUser.java" beforeDir="false" />
+    <list default="true" id="a940267d-d68d-4d67-a4aa-e6eaa777b23f" name="Default" comment="change all project and add ziv bot">
+      <change afterPath="$PROJECT_DIR$/src/main/java/bots/DaysCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bots/botsMessageHandler/SharonBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bots/botsMessageHandler/SharonBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/botsMessageHandler/SharonBot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bots/botsMessageHandler/SharonBot.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,12 +21,77 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bots/botsConfiguration/botFatherSataters/BotFatherSharonLuzon.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/commants/SharonBotCommants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="58" column="27" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="27" />
+            <state relative-caret-position="903">
+              <caret line="84" column="38" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bots/botsMessageHandler/SharonBot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bots/DaysCalculator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/TimeUnit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="220" column="16" selection-start-line="220" selection-start-column="16" selection-end-line="220" selection-end-column="16" />
+              <folding>
+                <element signature="e#8508#8509#0" expanded="true" />
+                <element signature="e#8555#8556#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Date.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="883" column="16" selection-start-line="883" selection-start-column="16" selection-end-line="883" selection-end-column="16" />
+              <folding>
+                <element signature="e#6390#6391#0" expanded="true" />
+                <element signature="e#6438#6439#0" expanded="true" />
+                <element signature="e#37718#37719#0" expanded="true" />
+                <element signature="e#37754#37755#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Calendar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="1768" column="34" selection-start-line="1768" selection-start-column="30" selection-end-line="1768" selection-end-column="34" />
+              <folding>
+                <element signature="e#71057#71058#0" expanded="true" />
+                <element signature="e#71104#71105#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,39 +116,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/telegram/telegrambots-meta/4.2/telegrambots-meta-4.2.jar!/org/telegram/telegrambots/meta/api/methods/send/SendMessage.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bots/botsConfiguration/SharonBotConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bots/botsMessageHandler/ZivMessageBot.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/bots/botsConfiguration/botFatherSataters/BotFatherZivBerkoich.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
@@ -110,34 +128,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bots/botsMessageHandler/LSDMessageBot.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+            <state relative-caret-position="415">
+              <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -178,9 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/bots/botAPI.java" />
-        <option value="$PROJECT_DIR$/src/bots/SharonBot.java" />
-        <option value="$PROJECT_DIR$/src/bots/ShakedMessageBot.java" />
         <option value="$PROJECT_DIR$/src/BotsInfoEnum.java" />
         <option value="$PROJECT_DIR$/src/GlobalEnum/BotsInfoEnum.java" />
         <option value="$PROJECT_DIR$/src/GlobalEnums/BotsInfoEnum.java" />
@@ -218,7 +209,6 @@
         <option value="$PROJECT_DIR$/src/main/java/bots/botsConfiguration/SharonBotConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/bots/botsConfiguration/LSDBotConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/bots/botsConfiguration/ZivBotConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bots/botsMessageHandler/SharonBot.java" />
         <option value="$PROJECT_DIR$/src/main/java/commants/ZivMessageCommants.java" />
         <option value="$PROJECT_DIR$/src/main/java/bots/botsMessageHandler/utils/MessegeTypeUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/bots/botsMessageHandler/LSDMessageBot.java" />
@@ -229,6 +219,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/bots/botsConfiguration/botFatherSataters/BotFatherSharonLuzon.java" />
         <option value="$PROJECT_DIR$/src/main/java/bots/botsConfiguration/botFatherSataters/BotFatherZivBerkoich.java" />
+        <option value="$PROJECT_DIR$/src/main/java/daysCalculator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DaysCalculator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bots/botsMessageHandler/SharonBot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bots/DaysCalculator.java" />
       </list>
     </option>
   </component>
@@ -314,35 +308,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="bots" type="462c0819:PsiDirectoryNode" />
-              <item name="botsConfiguration" type="462c0819:PsiDirectoryNode" />
-              <item name="botFatherSataters" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shakedBotYOLO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shakedBotYOLO" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bots" type="462c0819:PsiDirectoryNode" />
               <item name="botsMessageHandler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shakedBotYOLO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shakedBotYOLO" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bots" type="462c0819:PsiDirectoryNode" />
-              <item name="botsMessageHandler" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shakedBotYOLO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shakedBotYOLO" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="commants" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -353,7 +319,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556824260663" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556831742048" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../TelegramBots/telegrambots-meta" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -465,7 +431,14 @@
       <option name="project" value="LOCAL" />
       <updated>1552054363807</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="change all project and add ziv bot">
+      <created>1556824276662</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1556824276662</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -479,19 +452,19 @@
       <window_info id="UI Designer" order="1" />
       <window_info id="Favorites" order="2" sideWeight="0.2962298" side_tool="true" weight="0.19864048" />
       <window_info id="Capture Tool" order="3" />
-      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.70483005" visible="true" weight="0.23338369" />
+      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.5826271" visible="true" weight="0.23338369" />
       <window_info id="Image Layers" order="5" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info id="Structure" order="6" sideWeight="0.41737288" side_tool="true" visible="true" weight="0.23338369" />
       <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info anchor="bottom" id="Messages" order="1" weight="0.299187" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5007553" side_tool="true" visible="true" weight="0.2406504" />
+      <window_info anchor="bottom" id="Messages" order="1" sideWeight="0.49924472" weight="0.4390244" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50151056" side_tool="true" weight="0.91382116" />
       <window_info anchor="bottom" id="Java Enterprise" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="5" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.3284553" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" sideWeight="0.49924472" visible="true" weight="0.2406504" />
-      <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.49926794" weight="0.91382116" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49924472" weight="0.35609755" />
+      <window_info active="true" anchor="bottom" id="Debug" order="9" sideWeight="0.49848944" visible="true" weight="0.23252033" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
@@ -517,7 +490,8 @@
     <MESSAGE value="TWO BOTS ARE WORKING AT THE SAME TIME" />
     <MESSAGE value="all works" />
     <MESSAGE value="adding some truth or dare bot&#10;change some words in sharonluzon bot" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding some truth or dare bot&#10;change some words in sharonluzon bot" />
+    <MESSAGE value="change all project and add ziv bot" />
+    <option name="LAST_COMMIT_MESSAGE" value="change all project and add ziv bot" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -630,17 +604,22 @@
           <properties />
           <option name="timeStamp" value="52" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bots/DaysCalculator.java</url>
+          <line>86</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="s" />
-        <watch expression="s.contains(&quot;536854945&quot;)" />
-        <watch expression="messageContant" />
-        <watch expression="update.getMessage().getText()" />
-        <watch expression="e" />
-        <watch expression="update.getMessage().audio.fileId" language="JAVA" />
-        <watch expression="update.getMessage()" />
+        <watch expression="weekendWithChildrens" />
+        <watch expression="testingD" />
+        <watch expression="passDays%25" />
+        <watch expression="(passDays+1)%25" />
+        <watch expression="(passDays+1)%24)&gt;4" />
+        <watch expression="(passDays+1)%24" />
       </configuration>
     </watches-manager>
   </component>
@@ -693,10 +672,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../telegrambots-2.4.4.5-jar-with-dependencies (3).jar!/org/telegram/telegrambots/bots/commands/ICommandRegistry.class" />
-    <entry file="jar://$PROJECT_DIR$/../telegrambots-2.4.4.5-jar-with-dependencies (3).jar!/org/telegram/telegrambots/bots/TelegramLongPollingCommandBot.class" />
-    <entry file="file://$PROJECT_DIR$/src/bots/BotsConfiguration.java" />
-    <entry file="file://$PROJECT_DIR$/src/GlobalEnums/BotsInfoEnum.java" />
     <entry file="file://$PROJECT_DIR$/src/Bot.java" />
     <entry file="file://$PROJECT_DIR$/src/botsMessageHandler/SharonBot.java" />
     <entry file="file://$PROJECT_DIR$/src/botsConfiguration/BotFather.java" />
@@ -843,26 +818,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/commants/SharonBotCommants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="84" column="38" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bots/botsMessageHandler/SharonBot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bots/botsMessageHandler/ZivMessageBot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -883,16 +838,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bots/botsConfiguration/SharonBotConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -900,13 +845,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -931,9 +869,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bots/botsConfiguration/botFatherSataters/BotFatherZivBerkoich.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="10" column="75" lean-forward="true" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bots/botsConfiguration/SharonBotConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/commants/SharonBotCommants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="903">
+          <caret line="84" column="38" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bots/botsConfiguration/botFatherSataters/BotFatherSharonLuzon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="689">
           <caret line="58" column="27" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -941,10 +916,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bots/botsConfiguration/botFatherSataters/BotFatherZivBerkoich.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Calendar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="10" column="75" lean-forward="true" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
+        <state relative-caret-position="116">
+          <caret line="1768" column="34" selection-start-line="1768" selection-start-column="30" selection-end-line="1768" selection-end-column="34" />
+          <folding>
+            <element signature="e#71057#71058#0" expanded="true" />
+            <element signature="e#71104#71105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="883" column="16" selection-start-line="883" selection-start-column="16" selection-end-line="883" selection-end-column="16" />
+          <folding>
+            <element signature="e#6390#6391#0" expanded="true" />
+            <element signature="e#6438#6439#0" expanded="true" />
+            <element signature="e#37718#37719#0" expanded="true" />
+            <element signature="e#37754#37755#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bots/botsMessageHandler/SharonBot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/TimeUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="220" column="16" selection-start-line="220" selection-start-column="16" selection-end-line="220" selection-end-column="16" />
+          <folding>
+            <element signature="e#8508#8509#0" expanded="true" />
+            <element signature="e#8555#8556#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bots/DaysCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

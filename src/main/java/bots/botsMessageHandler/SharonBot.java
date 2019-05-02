@@ -1,5 +1,6 @@
 package bots.botsMessageHandler;
 
+import bots.DaysCalculator;
 import bots.botsMessageHandler.utils.BotAPI;
 import bots.botsMessageHandler.utils.MessegeTypeUtils;
 import commants.SharonBotCommants;
@@ -10,7 +11,7 @@ public class SharonBot implements BotAPI {
 
     public MessegeTypeUtils requestBot(Update update){
         MessegeTypeUtils messegeTypeUtils;
-        SendMessage sendMessage;
+        SendMessage sendMessage = null;
         String messageContant = update.getMessage().getText();
         if(messageContant != null){
             switch (messageContant){
@@ -22,8 +23,11 @@ public class SharonBot implements BotAPI {
                     sendMessage = SharonBotCommants.howAmI(update);
                     break;
                 }
-                case "/shafan":{
+                case "bhxhu":{
                     sendMessage = SharonBotCommants.shafan(update);
+                    break;
+                }case "בודקת":{
+                    DaysCalculator.calculateDays();
                     break;
                 }
                 default: {
