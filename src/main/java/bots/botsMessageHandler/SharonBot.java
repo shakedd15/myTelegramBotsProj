@@ -10,37 +10,64 @@ import org.telegram.telegrambots.meta.api.objects.Update;
 public class SharonBot implements BotAPI {
 
     public MessegeTypeUtils requestBot(Update update){
-        MessegeTypeUtils messegeTypeUtils;
+        MessegeTypeUtils messegeTypeUtils = null;
         SendMessage sendMessage = null;
         String messageContant = update.getMessage().getText();
         if(messageContant != null){
             switch (messageContant){
                 case "/start":{
-                    sendMessage = SharonBotCommants.welcomeMessege(update);
+                    messegeTypeUtils = new MessegeTypeUtils(SharonBotCommants.welcomeMessege(update));
                     break;
                 }
                 case "מי אתה?":{
-                    sendMessage = SharonBotCommants.howAmI(update);
+                    messegeTypeUtils = new MessegeTypeUtils(SharonBotCommants.howAmI(update));
                     break;
                 }
                 case "bhxhu":{
-                    sendMessage = SharonBotCommants.shafan(update);
+                    messegeTypeUtils = new MessegeTypeUtils(SharonBotCommants.shafan(update));
                     break;
-                }case "בודקת":{
-                    DaysCalculator.calculateDays();
+                }case "שלישיה":{
+                    messegeTypeUtils = SharonBotCommants.changeSongsKeyboard(update);
+                    break;
+                }case "1 חודשים קדימה":{
+                    messegeTypeUtils = new MessegeTypeUtils(DaysCalculator.calculateDays(update, 1));
+                    break;
+                }case "2 חודשים קדימה":{
+                    messegeTypeUtils = new MessegeTypeUtils(DaysCalculator.calculateDays(update, 2));
+                    break;
+                }case "3 חודשים קדימה":{
+                    messegeTypeUtils = new MessegeTypeUtils(DaysCalculator.calculateDays(update, 3));
+                    break;
+                }case "4 חודשים קדימה":{
+                    messegeTypeUtils = new MessegeTypeUtils(DaysCalculator.calculateDays(update, 4));
+                    break;
+                }case "5 חודשים קדימה":{
+                    messegeTypeUtils = new MessegeTypeUtils(DaysCalculator.calculateDays(update, 5));
+                    break;
+                }case "6 חודשים קדימה":{
+                    messegeTypeUtils = new MessegeTypeUtils(DaysCalculator.calculateDays(update, 6));
+                    break;
+                }case "7 חודשים קדימה":{
+                    messegeTypeUtils = new MessegeTypeUtils(DaysCalculator.calculateDays(update, 7));
+                    break;
+                }case "8 חודשים קדימה":{
+                    messegeTypeUtils = new MessegeTypeUtils(DaysCalculator.calculateDays(update, 8));
+                    break;
+                }case "9 חודשים קדימה":{
+                    messegeTypeUtils = new MessegeTypeUtils(DaysCalculator.calculateDays(update, 9));
                     break;
                 }
                 default: {
-                    sendMessage = this.ifStatments(messageContant, update);
+                    messegeTypeUtils = new MessegeTypeUtils(this.ifStatments(messageContant, update));
                     break;
                 }
             }
 
         } else {
-            sendMessage = SharonBotCommants.noStickers(update);
+            messegeTypeUtils = new MessegeTypeUtils(SharonBotCommants.noStickers(update));
         }
 
-        return new MessegeTypeUtils(sendMessage);
+        return messegeTypeUtils;
     }
 
     private SendMessage ifStatments (String messageContant, Update update){
@@ -72,4 +99,6 @@ public class SharonBot implements BotAPI {
 
         return sendMessage;
     }
+
+
 }

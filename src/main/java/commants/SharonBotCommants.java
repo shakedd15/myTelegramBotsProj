@@ -1,8 +1,14 @@
 package commants;
 
+import bots.botsMessageHandler.utils.MessegeTypeUtils;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.methods.send.SendSticker;
+import org.telegram.telegrambots.meta.api.objects.Message;
 import org.telegram.telegrambots.meta.api.objects.Update;
+import org.telegram.telegrambots.meta.api.objects.replykeyboard.ReplyKeyboard;
+import org.telegram.telegrambots.meta.api.objects.replykeyboard.ReplyKeyboardMarkup;
+import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.KeyboardButton;
+import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.KeyboardRow;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -142,12 +148,13 @@ public class SharonBotCommants {
 
         if(update.getMessage().getFrom().getFirstName().equals("זיו") || update.getMessage().getFrom().getFirstName().equals("Ziv")
                 || update.getMessage().getFrom().getFirstName().equals("Cyuka")){
-            return sendMessage.setText("היי כוסית" + "\n" +
-                    "\n" + "הגעת לבוט שרון לוזון! אני לא יודע לזיין כמו שרון לוזון, כי אני רק בוט מזדיין, אבל תוכלי כרגע: " + "\n" +
+            return sendMessage.setText("היי יפיופה" + "\n" +
+                    "\n" + "הגעת לבוט שרון לוזון! אופציות אפשריות: " + "\n" +
                     "לברך אותי לשלום" + "\n" +
                     "לבקש ארנב או ארנבים" + "\n" +
                     "לשאול אותי- 'מי אתה?'" + "\n" +
-                    "\n" + "בוט שרון לוזון אינו אוהב קללות");
+                    "\n" + "בוט שרון לוזון אינו אוהב קללות" + "\n" +
+                    "על מנת לבדוק ימי שישי פנויים לשלישיה תרשמי 'שלישיה'");
         }
 
         return sendMessage.setText("הי " + update.getMessage().getFrom().getFirstName() +
@@ -155,6 +162,29 @@ public class SharonBotCommants {
                 "1. לברך אותי לשלום" + "\n" +
                 "2. לבקש   ארנב או ארנבים" + "\n" +
                 "3. לשאול אותי- 'מי אתה?'" + "\n" +
-                "\n" + "בוט שרון לוזון אינו אוהב קללות");
+                "\n" + "בוט שרון לוזון אינו אוהב קללות" + "\n" +
+                "על מנת לבדוק ימי שישי פנויים לשלישיה נא לרשום 'שלישיה'");
+    }
+
+    public static MessegeTypeUtils changeSongsKeyboard(Update update) {
+        final Message message = update.getMessage();
+        ReplyKeyboard markup = null;
+        markup = new ReplyKeyboardMarkup();
+        final List<KeyboardRow> keyboard = ((ReplyKeyboardMarkup) markup).getKeyboard();
+        for (int i = 0; i < 9; i++)
+        {
+            if (keyboard.isEmpty() || (keyboard.get(keyboard.size() - 1).size() >= 3))
+            {
+                keyboard.add(new KeyboardRow());
+            }
+            keyboard.get(keyboard.size() - 1).add(new KeyboardButton().setText((i + 1) + " חודשים קדימה" ));
+        }
+        final SendMessage msg = new SendMessage();
+        msg.setChatId(Long.toString(message.getChat().getId()));
+        msg.setText("Your text here");
+        msg.setReplyToMessageId(message.getMessageId());
+        msg.setReplyMarkup(markup);
+
+        return new MessegeTypeUtils(msg);
     }
 }

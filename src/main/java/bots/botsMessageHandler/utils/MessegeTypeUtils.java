@@ -5,6 +5,8 @@ import org.telegram.telegrambots.meta.api.methods.send.SendAudio;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.ReplyKeyboardMarkup;
 
+import java.util.ArrayList;
+
 
 @Immutable
 public class MessegeTypeUtils {
@@ -12,6 +14,7 @@ public class MessegeTypeUtils {
     SendMessage sendMessage = null;
     SendAudio sendAudio = null;
     ReplyKeyboardMarkup replyKeyboardMarkup = null;
+    ArrayList<SendMessage> manyMessege = null;
 
     public MessegeTypeUtils(SendMessage sendMessage) {
         this.sendMessage = sendMessage;
@@ -19,6 +22,10 @@ public class MessegeTypeUtils {
 
     public MessegeTypeUtils(SendAudio sendAudio) {
         this.sendAudio = sendAudio;
+    }
+
+    public MessegeTypeUtils(ArrayList<SendMessage> manyMessege) {
+        this.manyMessege = manyMessege;
     }
 
     public MessegeTypeUtils(ReplyKeyboardMarkup replyKeyboardMarkup) {
@@ -52,6 +59,10 @@ public class MessegeTypeUtils {
 
     public SendAudio getSendAudio() {
         return sendAudio;
+    }
+
+    public ArrayList<SendMessage> getManyMessege() {
+        return manyMessege;
     }
 
     public ReplyKeyboardMarkup getReplyKeyboardMarkup() {

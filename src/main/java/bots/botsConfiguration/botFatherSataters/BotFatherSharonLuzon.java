@@ -29,6 +29,16 @@ public abstract class BotFatherSharonLuzon extends TelegramLongPollingBot {
                 if(messegeTypeUtils.getSendAudio()!= null){
                     execute(messegeTypeUtils.getSendAudio());
                 }
+                if(messegeTypeUtils.getManyMessege()!=null){
+                    messegeTypeUtils.getManyMessege().forEach(messege->{
+                        try {
+                            execute(messege);
+                            System.out.println("bot: " + messege.getText());
+                        } catch (TelegramApiException e) {
+                            e.printStackTrace();
+                        }
+                    });
+                }
             } catch (TelegramApiException e) {
                 e.printStackTrace();
             }
